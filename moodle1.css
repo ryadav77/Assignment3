@@ -1,0 +1,57 @@
+.navigator{
+    
+    width : 100%;
+    
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    min-height: 40px;
+    background-color: #1b1b1b;
+    background-image: -webkit-linear-gradient(to bottom,#222,#111);
+    background-image: -o-linear-gradient(to bottom,#222,#111);
+    background-image: linear-gradient(to bottom,#222,#111);
+    border-bottom: 5px solid #f98012;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.75);
+    box-shadow: 0 0 20px rgba(0,0,0,.75);
+    padding: 0;
+}
+.jumbo{
+    margin-top: 20px;
+    background-image:url(https://moodle.org/theme/image.php/moodleorg/theme/1568627409/frontpage/FG-banner2-1024px),url(https://moodle.org/theme/image.php/moodleorg/theme/1568627409/frontpage/BG-banner2-768px);
+    background-attachment: fixed fixed;
+    background-repeat: no-repeat no-repeat;
+    background-position: left right;
+    background-size: cover;
+     
+}
+
+ li:hover{
+    background-color: yellow;
+    
+}
+.hov:hover{
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,.5);
+}
+.a{
+    border: 1px solid white;
+    width:170px;
+    height : 28px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.b{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.under{
+    border-bottom: #f98012 dotted;
+    overflow: hidden;
+    
+    
+}
+
+.dort{
+    background-color:grey;
+}
